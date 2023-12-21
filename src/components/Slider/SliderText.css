@@ -1,0 +1,9 @@
+.slidingTextContainer {
+  position: absolute;
+  /* font-size: 50vh; */
+  /* bottom: -50px; */
+  white-space: nowrap;
+  /* color: #47474709; */
+  width: 50%;
+  font-weight: bold;
+}

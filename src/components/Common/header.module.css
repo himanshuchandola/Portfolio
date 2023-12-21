@@ -1,0 +1,26 @@
+.sectionHeader {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.title {
+    font-weight: 900;
+    text-align: end;
+
+    span {
+        color: var(--brand);
+    }
+
+    @media (max-width: 768px) {
+        font-size: var(--text-lg);
+    }
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background: #f59e0b;
+    opacity: 0.3;
+}
