@@ -13,7 +13,6 @@ import Hero from "./components/Common/Hero";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
