@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 ## Live
-[https://himanshuchandola-portfolio.netlify.app](https://himanshuchandola-portfolio.netlify.app/)
+[https://himanshuchandola-portfolio.vercel.app](https://himanshuchandola-portfolio.vercel.app/)
 
 ## Tech Stack
 1) React JS
