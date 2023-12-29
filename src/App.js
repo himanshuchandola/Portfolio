@@ -11,6 +11,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/ContactsPage";
 import Hero from "./components/Common/Hero";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Contact />
           <AppFooter />
           <SpeedInsights />
+          <Analytics />
         </main>
       )}
     </div>
