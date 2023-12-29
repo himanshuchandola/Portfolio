@@ -10,6 +10,7 @@ import { Toaster } from "react-hot-toast";
 import About from "./components/About/About";
 import Contact from "./components/Contact/ContactsPage";
 import Hero from "./components/Common/Hero";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -43,6 +44,7 @@ function App() {
           <Projects />
           <Contact />
           <AppFooter />
+          <SpeedInsights />
         </main>
       )}
     </div>
