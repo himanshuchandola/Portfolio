@@ -2,7 +2,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
 import AppFooterCopyright from "./FooterCopyright";
-import VisitorCounter from "../VisitorCounter/VisitorCounter";
+// import VisitorCounter from "../VisitorCounter/VisitorCounter";
 
 const socialLinks = [
   {
