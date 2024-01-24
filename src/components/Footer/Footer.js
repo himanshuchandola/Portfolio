@@ -3,6 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
 import AppFooterCopyright from "./FooterCopyright";
 // import VisitorCounter from "../VisitorCounter/VisitorCounter";
+import { ReactComponent as PeerlistIcon } from "../../assets/svg/Peerlist.svg";
 
 const socialLinks = [
   {
@@ -14,6 +15,11 @@ const socialLinks = [
     id: 4,
     icon: <FiLinkedin />,
     url: "https://www.linkedin.com/in/himanshuchandola/",
+  },
+  {
+    id: 6,
+    icon: <PeerlistIcon style={{ width: "24px", height: "24px" }} />,
+    url: "https://peerlist.io/himanshuhere",
   },
   {
     id: 5,
