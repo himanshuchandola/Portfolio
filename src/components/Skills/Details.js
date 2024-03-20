@@ -42,8 +42,9 @@ const Details = () => {
         className="flex flex-wrap gap-2"
       >
         <Label indicator={95}>React.js</Label>
-        <Label indicator={60}>Next.js</Label>
-        <Label indicator={70}>Redux</Label>
+        <Label indicator={95}>Next.js</Label>
+        <Label indicator={80}>Redux</Label>
+        <Label indicator={70}>Typescript</Label>
       </motion.div>
 
       <motion.h2

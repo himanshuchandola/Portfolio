@@ -7,6 +7,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import RightSvg from "../../assets/svg/right-pattern.svg";
 import { Reveal } from "../Common/Reveal";
 import BlurCircles from "../Common/BlurCircles";
+import { HiOutlineBuildingOffice } from "react-icons/hi2";
 
 const About = () => {
   return (
@@ -53,16 +54,26 @@ const About = () => {
           </div>
 
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
-            <Reveal width="100%">Currently Working</Reveal>
+            <Reveal width="100%">Work Experience</Reveal>
           </h4>
 
           <FeaturedCard
             icon={
               <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
-                <FaGraduationCap className="h-5 w-5 text-white" />
+                <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
               </div>
             }
-            title="June 2022 - Current"
+            title="Feb 2024 - Current"
+            desc="Frontend Developer at Exiliensoft Consulting Services."
+          />
+
+          <FeaturedCard
+            icon={
+              <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
+                <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
+              </div>
+            }
+            title="June 2022 - Jan 2024"
             desc="Software Developer at Source Soft Solutions Pvt. Ltd."
           />
 
