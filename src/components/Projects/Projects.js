@@ -12,7 +12,7 @@ export const projectsData = [
     thumbnail: "https://i.imgur.com/UEqATGm.jpeg",
     title: "E-Paper Amar Ujala ",
     description: "Amar Ujala Hindi E-Newspaper with all available cities.",
-    live: "https://epaper-amar-ujala-hindi-reactjs.netlify.app/",
+    live: "https://epaper-amar-ujala-hindi.netlify.app/",
     code: "https://github.com/himanshuchandola/Amar-Ujala-E-Paper",
     tech: ["React.js"],
     featured: false,
